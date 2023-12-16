@@ -280,7 +280,7 @@ config ZMK_RGB_UNDERGLOW_BRT_MAX
 config ZMK_RGB_UNDERGLOW_HUE_STEP
     int "RGB underglow hue step in degrees"
     range 0 359
-    default 10
+    default 5
 
 config ZMK_RGB_UNDERGLOW_SAT_STEP
     int "RGB underglow saturation step in percent"
